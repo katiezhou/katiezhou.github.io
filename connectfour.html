@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Play Candy Connect Four!</title>
+	<link rel="stylesheet" type="text/css" href="./project1/styles.css">
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<div id="header-container">
+		<div id="header1">Candy</div>
+		<div id="header2">Connect Four!</div>
+		<div id="instructions">Click a button to drop your piece in that column.</div>
+		<div id="current-player"></div>
+	</div>
+	<div id="board-size-container">
+		<div id="board-size-text">What size would you like the board to be?</div>
+		<div id="rows-text-container">
+			<div id="rows-text">Rows:</div>
+			<input id="rows-input" placeholder="Default: 6">
+		</div>
+		<div id="columns-text-container">
+			<div id="columns-text">Columns:</div>
+			<input id="columns-input" placeholder="Default: 7">
+		</div>
+		<div id="next-button-container">
+			<button id="next-button">Next</button>
+		</div>
+	</div>
+	<div id="name-input-container">
+		<div id="name-text">Type your names here!</div>
+		<input id="player1-input" placeholder="Player 1 Name">
+		<input id="player2-input" placeholder="Player 2 Name">
+	</div>
+	<div id="start-button-container">
+		<button id="start-button">Start!</button>
+	</div>
+	<div id="player-order-container">
+		<div id="player-order"></div>
+		<img id="dice-roll"src="./project1/diceroll.gif">
+	</div>
+	<div id="scoreboard-container">
+		<div id="scoreboard">
+			<div id="scoreboard-header">Scoreboard</div>
+			<div id="player1-score"></div>
+			<div id="player2-score"></div>
+		</div>
+	</div>
+	
+	<div id="game-outcome-container">
+		<div id="game-outcome"></div>
+		<div id="score-count"></div>
+	</div>
+	<div id="play-again-container">
+		<button id="play-again">Play again!</button>
+	</div>
+	
+<script type="text/javascript" src="./project1/scripts.js"></script>
+</body>
+</html>
