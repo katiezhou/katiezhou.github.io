@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log("Hi! If you're reading this, please hire me. Thanks!")
+	console.log("Hi! If you're reading this, you're probably trying to take a peek at my website code. That's awesome. Why not let me help build your websites and applications? I am currently looking for a developer position, so if you have any openings, please let me know! My contact info is listed on the bottom of the page. Thanks!")
 
 	$(".parallax").parallax();
 
