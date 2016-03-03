@@ -578,10 +578,6 @@ a.white-text:hover {
 }
 
 
-ul.social-icons {
-  float: left;
-}
-
 ul.social-icons li{
   display: inline;
   padding: 0px 10px;
@@ -593,7 +589,9 @@ ul.social-icons li{
 
 
 .copyright {
+  margin: 15px 0px;
   color: #4797a7;
+  line-height: 30px;
 }
 
 
@@ -631,4 +629,13 @@ div.line {
 
 #portfolio .row .col .card {
   margin: 0px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .page-footer {
+    height: 150px;
+  }
+
+  
+ 
 }
