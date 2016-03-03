@@ -16,14 +16,15 @@
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-73059963-2', 'auto');
       ga('send', 'pageview');
 
     </script>
+    <!-- <link rel="shortcut icon" href="images/favicon.png" > -->
   </head>
-  <body>
+  <body data-spy="scroll">
     <!-- Pre Loader -->
     <div id="preload" class="row">
       <div class="col s2 m4 l5">&nbsp;</div>
@@ -38,30 +39,33 @@
 
 
     <div class="navbar-fixed">
-        <nav id="nav_f" class="noscroll_nav" role="navigation">
+        <nav id="nav_f" class="noscroll-nav" role="navigation">
           <div class="container" id="nav-content">
-            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">katie zhou</a>
+            <div class="nav-wrapper">
+              <a id="logo-container" href="#top" class="brand-logo">katie zhou</a>
               <ul id="nav-mobile" class="right side-nav">
                 <li><a href="#about">about</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
                 <li><a href="#contact">contact</a></li>
-              </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+              </ul>
+              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
           </div>
         </nav>
     </div>
+
 
     <div class="section scrollspy no-pad-bot" id="home">
       <div class="typetext">
         <!-- <div class="col s12 m2 l5">&nbsp;</div> -->
         
           <h1 class="text_h center header cd-headline letters type">
-            <span>I am a </span>
-            <span class="cd-words-wrapper waiting">
-              <b class="is-visible">developer</b>
+            <span>I am </span>
+            <span class="jstext">
+              <!-- <b class="is-visible">developer</b>
               <b>musician</b>
               <b>thinker</b>
-              <b>creator</b>
+              <b>creator</b> -->
             </span>
           </h1>
         
@@ -74,16 +78,12 @@
       </div>
 
       <div class="row" id="home-content">
-        <div class="col s4 m6 l8 links">
+        <div class="col s4 m6 l8">
           &nbsp;
-          <div class="links-wrapper">
-            <a href="https://github.com/katiezhou" class="grey-text text-darken-1"><i class="fa fa-github fa-lg"></i></a>
-            <a href="https://linkedin.com/in/zhoukatie" class="grey-text text-darken-1"><i class="fa fa-linkedin-square fa-lg"></i></a>
-          </div>
         </div>
   
         <img class="col s8 m6 l4" src="./images/wdi_headshot_web.jpg" id="katie-img">
-        <a href="#about" class="btn-floating btn-large waves-effect waves-light center-align" id="down-arrow-btn"><i class="material-icons" id="down-arrow">keyboard_arrow_down</i></a>
+        <a href="#about" class="btn-floating btn-large waves-effect waves-light center-align z-depth-3" id="down-arrow-btn"><i class="material-icons" id="down-arrow">keyboard_arrow_down</i></a>
       </div>
       
     </div>
@@ -98,32 +98,46 @@
           </div>
 
           <div class="col s12 m4 l4">
-            <div class="center promo promo-example">
-              <i class="material-icons" id="computer">computer</i>
-              <p class="light center">I'm currently looking for opportunities as a front-end or full-stack web developer where I can continue to learn new skills, hone my existing ones, and grow as a developer. <a href="./images/katie_zhou_resume.pdf" class="about-link" id="about-resume">Download my resume here!</a></p>
+            <div class="center promo">
+              <i class="material-icons about-icons">computer</i>
+              <p class="light center">I'm currently looking for opportunities as a front-end or full-stack web developer where I can continue to learn new skills, hone my existing ones, and grow as a developer. </br><a href="./images/katie_zhou_resume.pdf" class="about-span">Download my resume here!</a></p>
             </div>
           </div>
           <div class="col s12 m4 l4">
-            <div class="center promo promo-example">
-              <i class="fa fa-music" id="music"></i>
+            <div class="center promo">
+              <i class="fa fa-music about-icons"></i>
               <p class="light center">I have a background in classical violin and enjoy playing in my spare time. Music is very important to me and has taught me about practice and perseverance, which has been instrumental (get it?) in learning how to code.</p>
             </div>
           </div>
           <div class="col s12 m4 l4">
-            <div class="center promo promo-example">
-              <i class="material-icons" id="heart">favorite</i>
-              <p class="light center">Learning is a true passion for me, whether it's exploring a new framework or trying out a violin arrangement for a popular song. Feel free to check out the results of this love of learning in my portfolio <a href="#portfolio" class="about-link" id="about-portfolio">below</a>! </p>
+            <div class="center promo">
+              <i class="material-icons about-icons">favorite</i>
+              <p class="light center">Learning is a true passion for me, whether it's exploring a new framework or trying out a violin arrangement for a popular song. Feel free to check out the results of this love of learning in my portfolio <a href="#portfolio" class="about-span">below</a>! </p>
             </div>
           </div>
         </div>
 
       </div>
-      <div class="parallax"><img src="./images/nycbackground2.jpg" alt=""></div>
+      <div class="parallax"><img src="./images/sublime.jpg" alt=""></div>
     </div>
+
+    <!-- <div class="section scrollspy" id="skills">
+      <div class="container">
+        <h2 class="header text_b center-align valign-wrapper">
+          <span>Skills</span>
+        </h2>
+        <div class="line center-align"></div>
+        </br></br>
+      </div>
+    </div> -->
 
     <div class="section scrollspy" id="portfolio">
       <div class="container">
-        <h2 class="header text_b"> Portfolio </h2>
+        <h2 class="header text_b center-align valign-wrapper">
+          <span>Portfolio</span>
+        </h2>
+        <div class="line center-align"></div>
+        </br></br>
         <div class="row">
           <div class="col s12 m4 l4">
             <div class="card">
@@ -225,12 +239,25 @@
       </div>
     </div>
 
-
-  
-    <footer id="contact" class="page-footer section scrollspy">
+    <footer id="contact" class="page-footer section scrollspy valign-wrapper">
       <div class="container">  
-        <div class="row">
-          <div class="col l6 s12">
+        <div class="row footer-row valign-wrapper">
+          <div class="col s12 m7 l9">
+            <ul class="social-icons">
+              <li><a class="github-link" href="https://github.com/katiezhou"><i class="fa fa-github fa-2x tooltipped" data-position="top" data-delay="50" data-tooltip="Github"></i></a></li>
+              <li><a class="linkedin-link" href="https://linkedin.com/in/zhoukatie"><i class="fa fa-linkedin fa-2x tooltipped" data-position="top" data-delay="50" data-tooltip="LinkedIn"></i></a></li>
+              <li><a class="resume-link" href="./images/katie_zhou_resume.pdf"><i class="fa fa-user fa-2x tooltipped" data-position="top" data-delay="50" data-tooltip="Resume"></i></a></li>
+              <li><a class="email-link" href="mailto:katie.f.zhou@gmail.com"><i class="fa fa-envelope fa-2x tooltipped" data-position="top" data-delay="50" data-tooltip="E-mail me!"></i></a></li>
+            </ul>
+            
+          </div>
+          <div class="col s12 m5 l3 valign-wrapper">
+            <div class="copyright">
+              Copyright &copy; <strong>Katie Zhou</strong> 2015
+            </div>
+          </div>
+
+<!--           <div class="col l6 s12">
             <h5 class="white-text">Get in touch</h5>
               <a class="white-text" href="mailto:katie.f.zhou@gmail.com"><i class="fa fa-envelope-o"></i> katie.f.zhou@gmail.com</a>
           </div>
@@ -239,12 +266,12 @@
               <a class="white-text" href="https://github.com/katiezhou"><i class="fa fa-github"></i> Github</a> &nbsp;&nbsp;&nbsp;
               <a class="white-text" href="https://linkedin.com/in/zhoukatie"><i class="fa fa-linkedin-square"></i> LinkedIn</a>&nbsp;&nbsp;&nbsp;
               <a class="white-text" href="./images/katie_zhou_resume.pdf"><i class="fa fa-file-pdf-o"></i> Resume</a>
-          </div>
-          <div class="col l12 s12">
+          </div> -->
+          <!-- <div class="col l12 s12">
             <div class="footer-copyright">
               Copyright &copy; <strong>Katie Zhou</strong> 2015
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -252,6 +279,8 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/typed.js"></script>
+  <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script type="text/javascript" src="./js/app.js"></script>
